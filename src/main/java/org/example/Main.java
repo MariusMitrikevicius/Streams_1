@@ -24,6 +24,8 @@ public class Main {
 
 
 
+
+
             List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
             int sum = 0;
             for (Integer number : numbers) {
@@ -35,7 +37,6 @@ public class Main {
                     .mapToInt(Integer::intValue)
                     .sum();
             System.out.println("Skaičių suma: : " + sum1);
-
 
 
 
