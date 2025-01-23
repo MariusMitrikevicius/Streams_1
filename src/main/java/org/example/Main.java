@@ -8,7 +8,7 @@ public class Main {
             List<String> words = Arrays.asList("apple", "banana", "orange", "kiwi", "grapes");
 
             System.out.println("Words list: " + words);
-            System.out.println("Žodžiai igesni nei 5r.:");
+            System.out.println("Žodžiai ilgesni nei 5r.:");
             for (String word : words) {
                 if (word.length() > 5) {
                     System.out.println(word);
@@ -19,7 +19,7 @@ public class Main {
                     .filter(word -> word.length() > 5)
                     .toList();
 
-            System.out.println("Žodžiai igesni nei 5r. " + longWords);
+            System.out.println("Žodžiai ilgesni nei 5r. " + longWords);
 
         }
 }
