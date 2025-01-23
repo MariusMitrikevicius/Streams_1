@@ -34,7 +34,7 @@ public class Main {
             int sum1 = numbers.stream()
                     .mapToInt(Integer::intValue)
                     .sum();
-            System.out.println("The sum of all numbers: " + sum1);
+            System.out.println("Skaičių suma: : " + sum1);
 
 
 
